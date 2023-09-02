@@ -5,3 +5,4 @@ function jump() {
 }
 
 jump "$@"
+# TODO: get context, switch context, get namespace, switch namespace, restart service
