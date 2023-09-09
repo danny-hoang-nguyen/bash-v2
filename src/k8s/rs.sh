@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function rs() {
+function rs() { # rs -n namespace -s service
 while getopts n:s: flag
 do
     case "${flag}" in
@@ -10,7 +10,6 @@ do
     esac
 done
 
-#  -n namespace configmap, kubectl get configmap if u dont know
     kubectl rollout restart deployment -n $namespace $service
 }
 

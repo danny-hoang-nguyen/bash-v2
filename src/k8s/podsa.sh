@@ -1,7 +1,7 @@
 #!/bin/bash
 
-function get_pods() {
+function pods() {
     kubectl get pods -A
 }
 
-get_pods "$@"
+pods "$@"

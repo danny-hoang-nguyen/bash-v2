@@ -1,0 +1,6 @@
+1   sophia      22      'love pie'
+2   charlotte   25      'plum cake'
+3   elizabeth   19      'monkey baby'
+4   sophia      30      'sleeping beauty'
+5   avery       29      'woofy'
+6   wendy       28      'smarty pants'
