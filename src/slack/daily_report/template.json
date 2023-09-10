@@ -1,12 +1,12 @@
 {
-  "channel": "C04S078ARUK",
+  "channel": "REPORT_CHANNEL",
   "text": "text",
   "blocks": [
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "<@U02DNCE5U68> is working on ticket <https://leap-expert.atlassian.net/browse/ID|SUMMARY> at stage \n [ DEV done(0)    :arrow_right:   verify DEV(1)   :arrow_right:   UT(2)    :arrow_right:   PR created(3)   :arrow_right:   PR approved(4)   :arrow_right:   verify QA(5)   :arrow_right:   Ready for QA(6) ]"
+        "text": "<@USERID_SLACK> is working on ticket <https://leap-expert.atlassian.net/browse/ID|SUMMARY> at stage [ DEV done(0)    :arrow_right:   verify DEV(1)   :arrow_right:   UT(2)    :arrow_right:   PR created(3)   :arrow_right:   PR approved(4)   :arrow_right:   verify QA(5)   :arrow_right:   Ready for QA(6) ]"
       },
       "block_id": "report-block-id"
     }
