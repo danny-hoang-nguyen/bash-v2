@@ -1,11 +1,11 @@
 #!/bin/bash
 function main() {
-  printf "No-arg cmds are below: \n 1.listing pod \n 2.listing ns \n 3.listing configmap \n 4.listing context \n"
+  printf "No-arg cmds are below: \n 1.pod \n 2.namespace \n 3.configmap \n 4.context \n"
   read -r -p "Choose program: " opt
   case $opt in
   1)
     echo "all pods"
-    sh get_pod_names.sh
+    sh podsa.sh
     ;;
 
   2)
