@@ -7,4 +7,9 @@
 /dataSources/
 /dataSources.local.xml
  ../.idea/
-/bash/
+/bash.iml
+/bashsupport-pro.xml
+/codeStyles/codeStyleConfig.xml
+/misc.xml
+/modules.xml
+/vcs.xml
