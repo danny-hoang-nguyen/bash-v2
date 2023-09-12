@@ -18,7 +18,7 @@ echo "value of -t: $token"
 
 while read -r id stage summary; do
   echo "$id, $stage, $summary"
-  payload=$(cat $template | sed "s/ID/$id/g" | sed "s/report-block-id/$(date +%s000)/g" | sed "s/SUMMARY/$summary/g" | sed "s/REPORT_CHANNEL/$channel/g" | sed "s/USERID_SLACK/$user/g")
+  payload=$(cat $template | sed "s/ID/$id/g" | sed "s/report-block-id/$(date +%s000)/g" | sed "s/SUMMARY/$summary/g" | sed "s/REPORT_CHANNEL/$channel/g" | sed "s/USER/$user/g")
   case $stage in
 
   0)
